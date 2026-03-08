@@ -1,4 +1,6 @@
 import { prisma } from "@/lib/prisma";
+
+export const dynamic = 'force-dynamic';
 import { format } from "date-fns";
 import Link from "next/link";
 import { Plus, PenTool, Trash2, Terminal, ExternalLink } from "lucide-react";
