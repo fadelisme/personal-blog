@@ -2,6 +2,8 @@ import PostEditor from "@/components/PostEditor";
 import { prisma } from "@/lib/prisma";
 import { notFound } from "next/navigation";
 
+export const dynamic = 'force-dynamic';
+
 type Params = Promise<{ id: string }>;
 
 export async function generateMetadata({ params }: { params: Params }) {

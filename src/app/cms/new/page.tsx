@@ -1,6 +1,7 @@
 import PostEditor from "@/components/PostEditor";
 import { prisma } from "@/lib/prisma";
 
+export const dynamic = 'force-dynamic';
 export const metadata = { title: "New Post | CMS" };
 
 export default async function NewPostPage() {
